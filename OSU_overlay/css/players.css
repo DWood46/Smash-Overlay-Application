@@ -1,0 +1,103 @@
+@font-face {
+	font-family: 'LemonMilk';
+	src: url('../static/fonts/LemonMilk.woff') format('woff');
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	margin: 0px;
+	margin-top: 32px;
+}
+
+#ui {
+	display: none;
+}
+
+.background {
+	display: none;
+	position: absolute;
+	z-index: -1;
+}
+
+
+#sidebar {
+	display: flex;
+	direction: row;
+	width: 608px;
+	height: 1080px;
+	margin-left: 0px;
+	margin-right: auto;
+}
+
+#player_container {
+	display: inline-block;
+	margin-top: 842px;
+	margin-left: 362px;
+	width: 572px;
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+	font-stretch: condensed;
+	font-size: 40px;
+	letter-spacing: -0.8px;
+}
+
+#round_container {
+	display: block;
+	margin-top: 885px;
+	margin-left: 26px;
+	height: 42px;
+	font-family: LemonMilk;
+	font-size: 30px;
+	background: linear-gradient(#c7e6eb, #0dbed7);
+	text-align: center;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0px 2px 1px #000);
+}
+
+#round {
+	display: block;
+	width: 308px;
+}
+
+
+.player {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	vertical-align: middle;
+	margin-bottom: 24px;
+}
+
+.stock_icon {
+	width: 36px;
+	height: 36px;
+	vertical-align: middle;
+	margin: 0 12px 0 32px;
+}
+
+.tag {
+	width: 395px;
+	overflow: hidden;
+	white-space:nowrap;
+	background: -webkit-linear-gradient(#ffaadc, #fa79c4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0px 2px 1px #000);
+	margin-bottom: 3px;
+}
+
+.score {
+	font-size: 48px;
+	margin: 0 0 0 22px;
+	width: 48px;
+	text-align: center;
+	background: -webkit-linear-gradient(#fff, #eee);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0px 2px 1px #000);
+}

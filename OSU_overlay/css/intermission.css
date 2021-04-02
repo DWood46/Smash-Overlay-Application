@@ -1,0 +1,130 @@
+@font-face {
+	font-family: 'LemonMilk';
+	src: url('../static/fonts/LemonMilk.woff') format('woff');
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	margin: 0px;
+}
+
+#ui {
+	display: none;
+}
+
+.background {
+	position: absolute;
+	z-index: -1;
+}
+
+#sidebar {
+	display: block;
+	width: 734px;
+	height: 1080px;
+	margin-left: auto;
+	margin-right: 59px;
+}
+
+.camera_wrapper {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 68px;
+	width: 330px;
+	margin-right: 70px;
+}
+
+#camera1 {
+	display: inline-block;
+	margin-top: 456px;
+	width: 810px;
+}
+
+#camera2 {
+	display: inline-block;
+	margin-top: 378px;
+	width: 810px;
+}
+
+a {
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+	font-stretch: condensed;
+	font-size: 40px;
+	letter-spacing: -0.8px;
+	overflow: hidden;
+	white-space:nowrap;
+	background: -webkit-linear-gradient(#ffaadc, #fa79c4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0px 2px 1px #000);
+	margin-bottom: 3px;
+	padding: 0 8px 0 8px;
+}
+
+#round_container {
+	display: inline-block;
+	margin-top: 17px;
+	width: 100%;
+	font-family: LemonMilk;
+	font-size: 30px;
+	background: linear-gradient(#c7e6eb, #0dbed7);
+	text-align: center;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0px 2px 1px #000);
+}
+
+#player_container {
+	display: inline-block;
+	margin-top: 348px;
+	margin-left: 18px;
+	width: 572px;
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+	font-stretch: condensed;
+	font-size: 40px;
+	letter-spacing: -0.8px;
+}
+
+.player {
+	display: flex;
+	align-items: center;
+	height: 50px;
+	vertical-align: middle;
+	margin-bottom: 24px;
+}
+
+.stock_icon {
+	width: 36px;
+	height: 36px;
+	vertical-align: middle;
+	margin: 0 12px 0 32px;
+}
+
+.tag {
+	width: 395px;
+	overflow: hidden;
+	white-space:nowrap;
+	background: -webkit-linear-gradient(#ffaadc, #fa79c4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0px 2px 1px #000);
+	margin-bottom: 3px;
+}
+
+.score {
+	font-size: 48px;
+	margin: 0 0 0 22px;
+	width: 48px;
+	text-align: center;
+	background: -webkit-linear-gradient(#fff, #eee);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0px 2px 1px #000);
+}

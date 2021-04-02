@@ -1,0 +1,116 @@
+{
+	"players": [
+		{
+			"tag": "Arcanacal",
+			"character": "fox/blue.png"
+		},
+		{
+			"tag": "Bez",
+			"character": "falco/green.png"
+		},
+		{
+			"tag": "Crenando",
+			"character": "falco/blue.png"
+		},
+		{
+			"tag": "Duckslayer",
+			"character": "captainfalcon/dark.png"
+		},
+        {
+			"tag": "GG",
+			"character": "falco/original.png"
+		},
+		{
+			"tag": "Glaikit",
+			"character": "jigglypuff/original.png"
+		},
+		{
+			"tag": "Graeme",
+			"character": "marth/green.png"
+		},
+		{
+			"tag": "Hao",
+			"character": "fox/blue.png"
+		},
+		{
+			"tag": "Johnny Turbo",
+			"character": "captainfalcon/green.png"
+		},
+		{
+			"tag": "Jude",
+			"character": "fox/red.png"
+		},
+		{
+			"tag": "Linney",
+			"character": "falco/original.png"
+		},
+		{
+			"tag": "Looman",
+			"character": "peach/gold.png"
+		},
+		{
+			"tag": "Maskless",
+			"character": "fox/red.png"
+		},
+		{
+			"tag": "Mikey McMuffin",
+			"character": "drmario/green.png"
+		},
+		{
+			"tag": "Modentor",
+			"character": "fox/original.png"
+		},
+        {
+			"tag": "Okameed",
+			"character": "pikachu/original.png"
+		},
+		{
+			"tag": "Omega",
+			"character": "sheik/original.png"
+		},
+		{
+			"tag": "Oni",
+			"character": "marth/white.png"
+		},
+		{
+			"tag": "Phade",
+			"character": "marth/blue.png"
+		},
+		{
+			"tag": "Pilot",
+			"character": "peach/green.png"
+		},
+		{
+			"tag": "P Fitz",
+			"character": "sheik/original.png"
+		},
+		{
+			"tag": "Ryzon",
+			"character": "fox/green.png"
+		},
+		{
+			"tag": "Sheezy",
+			"character": "sheik/red.png"
+		},
+		{
+			"tag": "Shifting Shadows",
+			"character": "captainfalcon/white.png"
+		},
+		{
+			"tag": "Socks",
+			"character": "sheik/red.png"
+		},
+		{
+			"tag": "Swish",
+			"character": "marth/red.png"
+		},
+		{
+			"tag": "TTS",
+			"character": "captainfalcon/blue.png"
+		},
+		{
+			"tag": "Wraith",
+			"character": "marth/blue.png"
+		}
+	]
+}

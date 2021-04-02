@@ -1,0 +1,38 @@
+{
+  "Player1": {
+    "name": "Jayy",
+    "character": {
+      "name": "Fox (Original)",
+      "icon": "/Fox/FoxOriginal.png"
+    },
+    "score": 0
+  },
+  "Player2": {
+    "name": "Omega",
+    "character": {
+      "name": "Fox (Original)",
+      "icon": "/Fox/FoxOriginal.png"
+    },
+    "score": 0
+  },
+  "Player3": {
+    "name": "Phade",
+    "character": {
+      "name": "Fox (Original)",
+      "icon": "/Fox/FoxOriginal.png"
+    },
+    "score": 0
+  },
+  "Player4": {
+    "name": "Swish",
+    "character": {
+      "name": "Fox (Original)",
+      "icon": "/Fox/FoxOriginal.png"
+    },
+    "score": 0
+  },
+  "round": "",
+  "casterL": "",
+  "casterR": "",
+  "bestOf": null
+}

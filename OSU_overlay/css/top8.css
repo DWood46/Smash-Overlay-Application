@@ -1,0 +1,129 @@
+@font-face {
+	font-family: 'LemonMilk';
+	src: url('../static/fonts/LemonMilk.woff') format('woff');
+}
+
+html {
+	overflow: hidden;
+}
+
+body {
+	margin: 0px;
+	font-family: arial;
+	font-style: italic;
+	font-weight: bold;
+	font-stretch: condensed;
+	font-size: 32px;
+	letter-spacing: -0.8px;
+}
+
+#ui {
+	display: none;
+}
+
+.background {
+	position: absolute;
+	z-index: -3;
+}
+
+#losers-bg {
+	display: none;
+	position: absolute;
+	z-index: -2;
+}
+
+#winners-bg {
+	display: none;
+	position: absolute;
+	z-index: -1;
+}
+
+.player_container {
+	display: inline-block;
+}
+
+.player {
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+}
+
+.tag {
+	width: 292px;
+	height: 40px;
+	overflow: hidden;
+	white-space:nowrap;
+	background: -webkit-linear-gradient(#ffaadc, #fa79c4);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0px 2px 1px #000);
+	margin-top: 1px;
+	margin-bottom: 3px;
+}
+
+.score {
+	font-size: 34px;
+	margin: 0 0 4px 15px;
+	width: 36px;
+	height: 40px;
+	text-align: center;
+	background: -webkit-linear-gradient(#fff, #eee);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0px 2px 1px #000);
+}
+
+.winners {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.winners .semis {
+	display: inline-flex;
+	flex-direction: column;
+	margin-top: 286px;
+	margin-left: 60px;
+}
+
+.winners .final {
+	margin-top: 364px;
+	margin-left: 97px;
+}
+
+.winners .grands {
+	margin-top: 364px;
+	margin-left: 74px;
+}
+
+.losers {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.losers .seventh {
+	display: inline-flex;
+	flex-direction: column;
+	margin-top: 170px;
+	margin-left: 60px;
+}
+
+.losers .quarters {
+	display: inline-flex;
+	flex-direction: column;
+	margin-top: 170px;
+	margin-left: 97px;
+}
+
+.losers .semis {
+	margin-top: 249px;
+	margin-left: 74px;
+}
+
+.losers .final {
+	margin-top: 249px;
+	margin-left: 64px;
+}
+
+#set1 {
+	margin-bottom: 68px;
+}
