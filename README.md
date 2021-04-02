@@ -1,4 +1,4 @@
-# Smash_Overlay_Application
+# Smash Overlay Application for tournaments
 
 ## Usage
 
